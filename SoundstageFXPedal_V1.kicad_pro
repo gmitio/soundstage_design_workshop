@@ -51,7 +51,13 @@
           "min_clearance": 0.5
         }
       },
-      "diff_pair_dimensions": [],
+      "diff_pair_dimensions": [
+        {
+          "gap": 0.0,
+          "via_gap": 0.0,
+          "width": 0.0
+        }
+      ],
       "drc_exclusions": [],
       "meta": {
         "version": 2
@@ -110,20 +116,20 @@
       },
       "rules": {
         "max_error": 0.005,
-        "min_clearance": 0.0,
+        "min_clearance": 0.127,
         "min_connection": 0.0,
-        "min_copper_edge_clearance": 0.5,
+        "min_copper_edge_clearance": 0.2,
         "min_hole_clearance": 0.25,
         "min_hole_to_hole": 0.25,
         "min_microvia_diameter": 0.2,
         "min_microvia_drill": 0.1,
-        "min_resolved_spokes": 2,
+        "min_resolved_spokes": 1,
         "min_silk_clearance": 0.0,
         "min_text_height": 0.8,
         "min_text_thickness": 0.08,
-        "min_through_hole_diameter": 0.3,
-        "min_track_width": 0.0,
-        "min_via_annular_width": 0.1,
+        "min_through_hole_diameter": 0.2,
+        "min_track_width": 0.127,
+        "min_via_annular_width": 0.15,
         "min_via_diameter": 0.5,
         "solder_mask_to_copper_clearance": 0.0,
         "use_height_for_length_calcs": true
@@ -171,7 +177,10 @@
           "td_width_to_size_filter_ratio": 0.9
         }
       ],
-      "track_widths": [],
+      "track_widths": [
+        0.0,
+        0.3
+      ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
           "corner_radius_percentage": 80,
@@ -198,7 +207,12 @@
           "spacing": 0.6
         }
       },
-      "via_dimensions": [],
+      "via_dimensions": [
+        {
+          "diameter": 0.0,
+          "drill": 0.0
+        }
+      ],
       "zones_allow_external_fillets": false
     },
     "ipc2581": {
@@ -216,7 +230,12 @@
     "equivalence_files": []
   },
   "erc": {
-    "erc_exclusions": [],
+    "erc_exclusions": [
+      "multiple_net_names|1257300|825500|32eb22ef-040f-47d3-ba72-ef82fd32b922|2f32db04-6690-4a91-b901-4998195b9a38|/1aee7ebe-69e3-48f7-80dd-f9e700844aa6|/1aee7ebe-69e3-48f7-80dd-f9e700844aa6|/1aee7ebe-69e3-48f7-80dd-f9e700844aa6",
+      "power_pin_not_driven|1257300|1054100|d9284841-23c6-4bd2-a3f5-82876ce904de|00000000-0000-0000-0000-000000000000|/1aee7ebe-69e3-48f7-80dd-f9e700844aa6/092fac71-7385-4acb-858b-c7dfb71d6db2|/1aee7ebe-69e3-48f7-80dd-f9e700844aa6/092fac71-7385-4acb-858b-c7dfb71d6db2|",
+      "power_pin_not_driven|508000|952500|aff3a583-3c37-46ed-87de-d92a6f841b62|00000000-0000-0000-0000-000000000000|/1aee7ebe-69e3-48f7-80dd-f9e700844aa6|/1aee7ebe-69e3-48f7-80dd-f9e700844aa6|",
+      "power_pin_not_driven|647700|800100|addb5526-f728-4a92-8163-bf20ddc852e0|00000000-0000-0000-0000-000000000000|/1aee7ebe-69e3-48f7-80dd-f9e700844aa6|/1aee7ebe-69e3-48f7-80dd-f9e700844aa6|"
+    ],
     "meta": {
       "version": 0
     },
@@ -466,7 +485,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "",
+      "plot": "Fabrication",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "",
