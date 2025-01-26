@@ -694,6 +694,15 @@
 				(hide yes)
 			)
 		)
+		(property "Source" ""
+			(at 53.34 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "d6bf3832-34b3-4682-af89-50c25b5f6bfa")
 		)
@@ -762,6 +771,15 @@
 			)
 		)
 		(property "Sim.Type" ""
+			(at 71.12 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Source" ""
 			(at 71.12 29.21 0)
 			(effects
 				(font

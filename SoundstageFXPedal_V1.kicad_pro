@@ -485,7 +485,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "Fabrication",
+      "plot": "Assembly/",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "",
@@ -555,12 +555,6 @@
         },
         {
           "group_by": false,
-          "label": "Part No.",
-          "name": "Part No.",
-          "show": false
-        },
-        {
-          "group_by": false,
           "label": "Sim.Device",
           "name": "Sim.Device",
           "show": false
@@ -581,13 +575,25 @@
           "group_by": false,
           "label": "Voltage",
           "name": "Voltage",
-          "show": false
+          "show": true
         },
         {
           "group_by": false,
           "label": "Description",
           "name": "Description",
           "show": false
+        },
+        {
+          "group_by": false,
+          "label": "PartNo.",
+          "name": "PartNo.",
+          "show": true
+        },
+        {
+          "group_by": false,
+          "label": "Source",
+          "name": "Source",
+          "show": true
         }
       ],
       "filter_string": "",
@@ -625,7 +631,7 @@
     },
     "net_format_name": "",
     "page_layout_descr_file": "",
-    "plot_directory": "",
+    "plot_directory": "Schematic",
     "spice_current_sheet_as_root": false,
     "spice_external_command": "spice \"%I\"",
     "spice_model_current_sheet_as_root": true,

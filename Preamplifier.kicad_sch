@@ -2328,6 +2328,19 @@
 		)
 		(uuid "f80c8ace-b638-4943-8623-4aa1c1936010")
 	)
+	(text "ERRATA:\nThis node should be connected\n to GND, not VCC"
+		(exclude_from_sim no)
+		(at 208.788 116.84 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify right)
+		)
+		(uuid "1cc9fbf5-7588-42a0-96bb-6f5fda83b34e")
+	)
 	(text "UNUSED OPAMP\nTERMINATION"
 		(exclude_from_sim no)
 		(at 215.392 124.714 0)
@@ -2339,6 +2352,19 @@
 			)
 		)
 		(uuid "5bcb52fc-bc1e-41be-ac01-b6a9757afea8")
+	)
+	(text "ERRATA:\nC304 SILKSCREEN POLARITY\nREVERSED"
+		(exclude_from_sim no)
+		(at 161.036 50.292 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify right)
+		)
+		(uuid "7ee2c7c7-2043-478d-a2ed-a57a964528b8")
 	)
 	(global_label "PREAMP_IN_N"
 		(shape input)
@@ -2554,6 +2580,15 @@
 				(hide yes)
 			)
 		)
+		(property "Source" "MOUSER: 512-1N4148"
+			(at 119.38 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "d3a06379-0152-4440-bc6f-7315808617e3")
 		)
@@ -2691,6 +2726,15 @@
 			)
 		)
 		(property "Sim.Type" ""
+			(at 95.25 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Source" "MOUSER: 603-MFR-25FBF52-47K"
 			(at 95.25 86.36 0)
 			(effects
 				(font
@@ -2844,6 +2888,15 @@
 				(hide yes)
 			)
 		)
+		(property "Source" "MOUSER: 603-MFR-25FBF52-47K"
+			(at 104.14 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "13a1c4a8-bf92-474c-bc5f-b50d1665beaf")
 		)
@@ -2987,6 +3040,15 @@
 				(hide yes)
 			)
 		)
+		(property "Source" "MOUSER: 603-MFR-25FTF52-22K"
+			(at 222.25 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "f633e652-87ef-47db-9da6-72137b11ce80")
 		)
@@ -3068,6 +3130,15 @@
 				(hide yes)
 			)
 		)
+		(property "Source" "MOUSER: 637-2N3906"
+			(at 167.64 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "e71055b9-a557-4ea3-afbd-c92fea3f0a70")
 		)
@@ -3140,6 +3211,15 @@
 			)
 		)
 		(property "Sim.Type" ""
+			(at 213.36 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Source" "MOUSER: 595-TL072CP"
 			(at 213.36 137.16 0)
 			(effects
 				(font
@@ -3245,6 +3325,15 @@
 				(hide yes)
 			)
 		)
+		(property "Source" "MOUSER: 603-MFR-25FRF5215K"
+			(at 165.1 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "15ef6c00-9082-4216-97ec-54b5f515632c")
 		)
@@ -3321,6 +3410,24 @@
 			)
 		)
 		(property "Sim.Type" ""
+			(at 246.38 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PartNo." "MOUSER: 232-25PK47MEFC5X11 "
+			(at 246.38 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Source" "MOUSER: 232-25PK47MEFC5X11 "
 			(at 246.38 90.17 0)
 			(effects
 				(font
@@ -3477,6 +3584,15 @@
 				(hide yes)
 			)
 		)
+		(property "Source" "MOUSER: 637-2N3906"
+			(at 123.19 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "4220f078-5ccd-4447-9fd6-c8c6713a9510")
 		)
@@ -3551,6 +3667,15 @@
 			)
 		)
 		(property "Sim.Type" ""
+			(at 200.66 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Source" "MOUSER: 810-FG18C0G1H101JNT0 "
 			(at 200.66 104.14 0)
 			(effects
 				(font
@@ -3635,6 +3760,15 @@
 			)
 		)
 		(property "Sim.Type" ""
+			(at 86.36 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Source" "MOUSER: 232-25PX100MEFC5X11"
 			(at 86.36 68.58 0)
 			(effects
 				(font
@@ -3778,6 +3912,15 @@
 			)
 		)
 		(property "Sim.Type" ""
+			(at 233.68 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Source" "MOUSER: 595-TL072CP"
 			(at 233.68 107.95 0)
 			(effects
 				(font
@@ -3949,6 +4092,15 @@
 				(hide yes)
 			)
 		)
+		(property "Source" "MOUSER: 603-MFR-25FTF52-4K7"
+			(at 125.73 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "bce67fd2-d8bf-4d21-8ab3-e3e26d84025d")
 		)
@@ -4020,6 +4172,15 @@
 			)
 		)
 		(property "Sim.Type" ""
+			(at 62.23 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Source" "MOUSER: 603-MFR-25FRF52-3K3"
 			(at 62.23 73.66 0)
 			(effects
 				(font
@@ -4107,6 +4268,15 @@
 				(hide yes)
 			)
 		)
+		(property "Source" "MOUSER: 810-FG28C0G1H102JNT6"
+			(at 74.93 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "dbbc221d-742f-4096-b23e-c7279a07ee04")
 		)
@@ -4178,6 +4348,15 @@
 			)
 		)
 		(property "Sim.Type" ""
+			(at 125.73 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Source" "MOUSER: 603-MFR-25FRF5215K"
 			(at 125.73 55.88 0)
 			(effects
 				(font
@@ -4283,6 +4462,15 @@
 				(hide yes)
 			)
 		)
+		(property "Source" "MOUSER: 512-1N4148"
+			(at 160.02 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "ee3cdde4-25a4-4b48-a31c-1e4b599d5fce")
 		)
@@ -4354,6 +4542,15 @@
 			)
 		)
 		(property "Sim.Type" ""
+			(at 165.1 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Source" "MOUSER: 603-MFR-25FTF52-4K7"
 			(at 165.1 97.79 0)
 			(effects
 				(font
@@ -4439,6 +4636,15 @@
 				(hide yes)
 			)
 		)
+		(property "Source" "MOUSER: 603-MFR-25FBF52-33R"
+			(at 135.89 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "ff911ff1-c76e-4dd3-bb1a-700db6334532")
 		)
@@ -4508,6 +4714,15 @@
 			)
 		)
 		(property "Sim.Type" ""
+			(at 222.25 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Source" "MOUSER: 810-FG18C0G1H101JNT0 "
 			(at 222.25 67.31 0)
 			(effects
 				(font
@@ -4658,6 +4873,15 @@
 			)
 		)
 		(property "Sim.Type" ""
+			(at 86.36 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Source" "MOUSER: 232-25PX100MEFC5X11"
 			(at 86.36 81.28 0)
 			(effects
 				(font
@@ -4882,6 +5106,15 @@
 				(hide yes)
 			)
 		)
+		(property "Source" "MOUSER: 232-25PX100MEFC5X11"
+			(at 157.48 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "6c671550-6e89-4fc8-9e7b-3218179dbd67")
 		)
@@ -4953,6 +5186,15 @@
 			)
 		)
 		(property "Sim.Type" ""
+			(at 210.82 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Source" "MOUSER: 603-MFR-25FTF52-22K"
 			(at 210.82 104.14 0)
 			(effects
 				(font
@@ -5037,6 +5279,15 @@
 				(hide yes)
 			)
 		)
+		(property "Source" "MOUSER: 306-B3BXHALFSNP"
+			(at 148.59 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "7f0036e5-0e0f-42ec-9e7d-b1da898e6b0c")
 		)
@@ -5109,6 +5360,15 @@
 			)
 		)
 		(property "Sim.Type" ""
+			(at 220.98 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Source" "MOUSER: 595-TL072CP"
 			(at 220.98 90.17 0)
 			(effects
 				(font
